@@ -349,9 +349,6 @@ class Frame ( wx.Frame ):
 
         self.Centre( wx.BOTH )
 
-        self.icon = wx.Icon("caricon.ico", wx.BITMAP_TYPE_ICO)
-        self.SetIcon(self.icon)
-
         self.m_button_q1.Bind(wx.EVT_BUTTON, self.on_search_q1)
         self.m_button_q2.Bind(wx.EVT_BUTTON, self.on_search_q2)
         self.m_button_q3.Bind(wx.EVT_BUTTON, self.on_search_q3)
